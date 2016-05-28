@@ -1,0 +1,2 @@
+class UserAccountableSerializer < ShortUserSerializer
+end

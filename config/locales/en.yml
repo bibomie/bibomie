@@ -1,0 +1,27 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  create_fail: Cannot create %{model}!
+  update_fail: Cannot update %{model} for %{name}!
+  access_denied: Access denied!
+  not_found: The resource you were looking for does not exist
+  errors: We're sorry, but something went wrong. We've been notified about this issue and we'll take a look at it shortly.
